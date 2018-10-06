@@ -1,0 +1,3 @@
+How to create a new branch and push in git command:
+git checkout -b feature_branch_name
+git push -u origin feature_branch_name
