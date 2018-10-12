@@ -1,0 +1,2 @@
+How to specify python version while using pip?
+python -m pip or python3 -m pip
