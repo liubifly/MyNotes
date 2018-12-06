@@ -1,1 +1,2 @@
-tensorboard --logdir="logdir" --port PORT
+tensorboard --logdir=runs/ --host localhost --port 8888
+# remember it should be the localhost here, 'runs' is just the name of the log directory. 
