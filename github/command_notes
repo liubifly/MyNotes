@@ -1,12 +1,17 @@
-How to create a new branch and push in git command:
+# How to create a new branch and push in git command:
 git checkout -b feature_branch_name
 git push -u origin feature_branch_name
-How to amend a commit:
-git commit --amend -m "commit message"
-This will unstage all files you might have staged with git add:
 
+# How to amend a commit:
+git commit --amend -m "commit message"
+
+# This will unstage all files you might have staged with git add:
 git reset
 
-How to show the original git path:
+# How to show the original git path:
 git remote show origin
 
+# How to stash on git:
+git stash
+# How to pop a stash:
+git stash pop
