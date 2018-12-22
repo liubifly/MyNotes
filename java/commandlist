@@ -1,0 +1,3 @@
+# how to compile the java code with external jar file
+javac -cp jarfile source file
+
