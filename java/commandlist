@@ -1,3 +1,10 @@
 # how to compile the java code with external jar file
 javac -cp jarfile source file
+# how to compile and run the java code
+javac file.java (-verbose)
+# now the class file will be generated, just running the executable code using the following command even if the file format is class
+java file
+# how to make a jar file with the class files (not sure what the manifest.txt is used for here)
+jar -cvmf manifest.txt name.jar *.class
+
 
