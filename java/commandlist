@@ -6,5 +6,6 @@ javac file.java (-verbose)
 java file
 # how to make a jar file with the class files (not sure what the manifest.txt is used for here)
 jar -cvmf manifest.txt name.jar *.class
-
+# how to check if two custom classes are equal in java
+Like c++, you need to override the == or equals by yourself using hashcode, but == can check if the two objects are the same instane.
 
