@@ -10,3 +10,5 @@ jar -cvmf manifest.txt name.jar *.class
 Like c++, you need to override the == or equals by yourself using hashcode, but == can check if the two objects are the same instane.
 # how to convert List<Integer> to int[] in java
 list.stream().mapToInt(Integer::intValue).toArray(); // list is the name of the List<Integer>
+# how to initialize an ArrayList with an array in java
+new ArrayList<>(Arrays.asList(array))  // maybe note the mutual conversion of Array and List in java
