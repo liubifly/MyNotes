@@ -12,3 +12,8 @@ Like c++, you need to override the == or equals by yourself using hashcode, but 
 list.stream().mapToInt(Integer::intValue).toArray(); // list is the name of the List<Integer>
 # how to initialize an ArrayList with an array in java
 new ArrayList<>(Arrays.asList(array))  // maybe note the mutual conversion of Array and List in java
+# how to iterate through the hashmap in java
+// for keys
+for (Object key: map.keySet())
+// for values
+for (Object value: map.values())
