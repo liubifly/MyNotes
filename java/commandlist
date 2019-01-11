@@ -26,3 +26,11 @@ Set<String> h = new HashSet<>(Arrays.asList("a", "b"));
 for  (char c: s.toCharArray())
 # how to fill an array with all the same value
 Arrays.fill(array, val);
+# StringBuilder is a useful structure, e.g. can be used for concatenating multiple chars to a string
+char c1 = 'a';
+char c2 = 'b';
+char c3 = 'c';
+StringBuilder sb = new StringBuilder();
+sb.append(c1);
+sb.append(c2);
+sb.append(c3);
