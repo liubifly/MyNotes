@@ -37,3 +37,6 @@ sb.append(c3);
 sb.toString();
 # how to clear a StringBuilder: set the length to 0 or new a new StringBuilder
 myStringBuilder.setLength(0);
+# how to check if a char is digit or letter in java
+Character.isLetter()
+Character.isDigit()
