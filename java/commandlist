@@ -24,3 +24,5 @@ Set<String> h = new HashSet<>(Arrays.asList(array));
 Set<String> h = new HashSet<>(Arrays.asList("a", "b"));
 # how to iterate all the characters in a string
 for  (char c: s.toCharArray())
+# how to fill an array with all the same value
+Arrays.fill(array, val);
