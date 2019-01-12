@@ -40,3 +40,5 @@ myStringBuilder.setLength(0);
 # how to check if a char is digit or letter in java
 Character.isLetter()
 Character.isDigit()
+# how to get the element by index in a list in java
+list.get(index)
