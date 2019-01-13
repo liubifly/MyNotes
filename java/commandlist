@@ -42,3 +42,4 @@ Character.isLetter()
 Character.isDigit()
 # how to get the element by index in a list in java
 list.get(index)
+# getOrDefault() seems useful for HashMap 
