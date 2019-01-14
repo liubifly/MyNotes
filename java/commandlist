@@ -43,3 +43,4 @@ Character.isDigit()
 # how to get the element by index in a list in java
 list.get(index)
 # getOrDefault() seems useful for HashMap 
+# HashSet cannot guarantee any order so you can use LinkedHashSet instead to retain the order
