@@ -46,3 +46,7 @@ list.get(index)
 # HashSet cannot guarantee any order so you can use LinkedHashSet instead to retain the order
 # how to convert int[] to Integer[]
 List<Integer> list = IntStream.of(a).boxed().collect(Collectors.toList());
+# how to remove the last element of an array in java
+Arrays.copyOf(original, original.length-1)
+# Is the loop through an array by reference or copying?
+Seems it's a copy here and the original array stays unchanged
