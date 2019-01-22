@@ -50,3 +50,9 @@ List<Integer> list = IntStream.of(a).boxed().collect(Collectors.toList());
 Arrays.copyOf(original, original.length-1)
 # Is the loop through an array by reference or copying?
 Seems it's a copy here and the original array stays unchanged
+# how to reverse an List in java
+Collections.reverse(list);
+# how to merge two ArrayLists in java
+a1.addAll(a2);
+# how to find a substring or a character in one string in java
+Using indexOf(substring/char, indexFrom)
