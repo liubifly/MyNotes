@@ -56,3 +56,5 @@ Collections.reverse(list);
 a1.addAll(a2);
 # how to find a substring or a character in one string in java
 Using indexOf(substring/char, indexFrom)
+# how to convert char into int in java
+Character.getNumericValue(c)
