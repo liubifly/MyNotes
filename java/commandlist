@@ -58,3 +58,5 @@ a1.addAll(a2);
 Using indexOf(substring/char, indexFrom)
 # how to convert char into int in java
 Character.getNumericValue(c)
+# how to copy a section of an array to another one
+Arrays.copyOfRange(a, fromIndex, toIndex)
