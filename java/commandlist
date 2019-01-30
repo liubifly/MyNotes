@@ -60,3 +60,5 @@ Using indexOf(substring/char, indexFrom)
 Character.getNumericValue(c)
 # how to copy a section of an array to another one
 Arrays.copyOfRange(a, fromIndex, toIndex)
+# how to define an array of hashmaps
+HashMap<Integer, Integer> [] rows = new HashMap[9];
