@@ -73,3 +73,8 @@ Map<String, String> phone = new HashMap<String, String>() {{
   put("8", "tuv");
   put("9", "wxyz");
 }};
+# how to sum over list without loop
+# If you have a List<Integer>
+int sum = list.stream().mapToInt(Integer::intValue).sum();
+# how to initialize a list with another list
+new ArrayList<Integer>(list)
