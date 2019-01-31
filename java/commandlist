@@ -78,3 +78,4 @@ Map<String, String> phone = new HashMap<String, String>() {{
 int sum = list.stream().mapToInt(Integer::intValue).sum();
 # how to initialize a list with another list
 new ArrayList<Integer>(list)
+# it also has this pointer in a class in java
