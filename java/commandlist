@@ -79,3 +79,8 @@ int sum = list.stream().mapToInt(Integer::intValue).sum();
 # how to initialize a list with another list
 new ArrayList<Integer>(list)
 # it also has this pointer in a class in java
+# how to use custom comparator for PriorityQueue in java
+PriorityQueue<int[]> pQueue = new PriorityQueue<>();
+Comparator<int[]> pairComparator = (s1, s2) -> {
+    return s1[0]+s1[1] - (s2[0]+s2[1]);
+};
