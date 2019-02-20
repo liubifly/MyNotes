@@ -56,6 +56,8 @@ Collections.reverse(list);
 a1.addAll(a2);
 # how to find a substring or a character in one string in java
 Using indexOf(substring/char, indexFrom)
+# how to determine if a string is in another String
+a.contains(b)
 # how to convert char into int in java
 Character.getNumericValue(c)
 # how to copy a section of an array to another one
@@ -87,3 +89,4 @@ Comparator<int[]> pairComparator = (s1, s2) -> {
 
 # how to define a PriorityQueue with keys of HashMap as the comparator, where count is a map here
 PriorityQueue<Integer> heap =  new PriorityQueue<Integer>((n1, n2) -> count.get(n1) - count.get(n2));
+# Collections.reverse() and sort() seem to be pretty useful
