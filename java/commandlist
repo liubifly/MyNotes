@@ -90,3 +90,11 @@ Comparator<int[]> pairComparator = (s1, s2) -> {
 # how to define a PriorityQueue with keys of HashMap as the comparator, where count is a map here
 PriorityQueue<Integer> heap =  new PriorityQueue<Integer>((n1, n2) -> count.get(n1) - count.get(n2));
 # Collections.reverse() and sort() seem to be pretty useful
+# The default heap in java is minHeap, which can be easily changed to maxHeap
+PriorityQueue<> heap = new PriorityQueue<>(Collections.reverseOrder())
+# sorting for the intervals for leetcode meeting room
+Arrays.sort(intervals, new Comparator<Interval>() {
+    public int compare(Interval i1, Interval i2) {
+        return i1.start - i2.start;
+    }
+});
