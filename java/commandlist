@@ -98,3 +98,6 @@ Arrays.sort(intervals, new Comparator<Interval>() {
         return i1.start - i2.start;
     }
 });
+# Two useful functions in StringBuilder of java
+deleteCharAt()
+insert(int offset, char c)
