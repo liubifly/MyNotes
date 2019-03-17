@@ -101,3 +101,5 @@ Arrays.sort(intervals, new Comparator<Interval>() {
 # Two useful functions in StringBuilder of java
 deleteCharAt()
 insert(int offset, char c)
+# How to insert in java List
+list.add(int index, element)
