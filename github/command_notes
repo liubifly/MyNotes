@@ -15,3 +15,7 @@ git remote show origin
 git stash
 # How to pop a stash:
 git stash pop
+
+# How to discard unstaged changes
+# Discarding local changes (permanently) to a file. 
+git checkout -- <file>
