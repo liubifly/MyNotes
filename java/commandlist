@@ -103,3 +103,5 @@ deleteCharAt()
 insert(int offset, char c)
 # How to insert in java List
 list.add(int index, element)
+# how to split by punctuation using regex in java
+s.split("[\\p{Punct}\\s]+")
