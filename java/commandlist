@@ -105,3 +105,4 @@ insert(int offset, char c)
 list.add(int index, element)
 # how to split by punctuation using regex in java
 s.split("[\\p{Punct}\\s]+")
+# ArrayList is part of collection framework in Java, while an array is basic functionality provided by Java. Hence, Collections.sort() can be applied to ArrayList rather than array.
