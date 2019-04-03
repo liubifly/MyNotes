@@ -19,6 +19,8 @@ for (Object key: map.keySet())
 for (Object value: map.values())
 # how to find the minimum value of values in a Map
 Collections.min(map.values())
+# how to get the entries of a Map
+Map.Entry<Character, Integer> entry = map.entrySet().iterator().next()
 # how to initialize a HashSet with an array of string in java
 String[] array = new String[] {"a", "b"};
 Set<String> h = new HashSet<>(Arrays.asList(array));
