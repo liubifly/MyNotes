@@ -17,6 +17,8 @@ new ArrayList<>(Arrays.asList(array))  // maybe note the mutual conversion of Ar
 for (Object key: map.keySet())
 // for values
 for (Object value: map.values())
+# how to find the minimum value of values in a Map
+Collections.min(map.values())
 # how to initialize a HashSet with an array of string in java
 String[] array = new String[] {"a", "b"};
 Set<String> h = new HashSet<>(Arrays.asList(array));
