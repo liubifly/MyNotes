@@ -1,2 +1,4 @@
 # How to specify python version while using pip?
 python -m pip or python3 -m pip
+# How to create virtual environment by commands?
+virtualenv -p python3 venv
