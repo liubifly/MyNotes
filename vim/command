@@ -1,2 +1,4 @@
 # how to shift lines in vim 
 using >> or <<
+# set tab spaces in vim
+:set tabstop=4
