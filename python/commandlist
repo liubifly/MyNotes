@@ -4,3 +4,9 @@ python -m pip or python3 -m pip
 virtualenv -p python3 venv
 # How to create a virtual environment inheriting all the packages
 virtualenv -p python3 --system-site-packages venv
+# How to convert python 3 packages to python 2 version?
+sudo 2to3 -w <path to pyflann in python dist-packages> )
+# How to open Jupyter Notebook using another port other than 8000
+jupyter notebook --port=8888
+# How to use ssh tunnel on aws
+ssh -i your_pem_file.pem -L 8000:localhost:8888 ubuntu@<ec2-dns>
