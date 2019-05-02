@@ -4,3 +4,7 @@ more
 ctrl + u
 # how to download from google drive in command line
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1fkifqZzdzsOEo0DXMzCFjiNXqsKG_cHi" -O e2e-coref.tgz && rm -rf /tmp/cookies.txt
+# how to mount a volume to an instance in aws
+sudo mkdir /newvolume
+sudo mount /dev/xvdf /newvolume/
+chown `whoami` /newvolume  # change the access
