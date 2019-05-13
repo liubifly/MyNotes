@@ -10,3 +10,8 @@ sudo 2to3 -w <path to pyflann in python dist-packages> )
 jupyter notebook --port=8888
 # How to use ssh tunnel on aws
 ssh -i your_pem_file.pem -L 8000:localhost:8888 ubuntu@<ec2-dns>
+# How to use asterisk in python
+fruits = ['lemon', 'pear', 'watermelon', 'tomato']
+print(*fruits)
+# It is passing all of the items in the fruits list into the print function call as separate arguments, without us even needing to know how many arguments are in the list
+
