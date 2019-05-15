@@ -7,4 +7,4 @@ wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download
 # how to mount a volume to an instance in aws
 sudo mkdir /newvolume
 sudo mount /dev/xvdf /newvolume/
-chown `whoami` /newvolume  # change the access
+chown -R `whoami` /newvolume  # change the access, R meaning recursively
