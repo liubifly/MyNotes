@@ -14,4 +14,5 @@ ssh -i your_pem_file.pem -L 8000:localhost:8888 ubuntu@<ec2-dns>
 fruits = ['lemon', 'pear', 'watermelon', 'tomato']
 print(*fruits)
 # It is passing all of the items in the fruits list into the print function call as separate arguments, without us even needing to know how many arguments are in the list
-
+# how to flatten a tensor in pytorch
+t.reshape(1, -1).squeeze()
