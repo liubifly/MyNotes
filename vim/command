@@ -2,3 +2,6 @@
 using >> or <<
 # set tab spaces in vim
 :set tabstop=4
+# how to show line number in vim 
+:set number
+:set nonumber  # not showing line number
