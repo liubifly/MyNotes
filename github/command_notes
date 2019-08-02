@@ -19,3 +19,8 @@ git stash pop
 # How to discard unstaged changes
 # Discarding local changes (permanently) to a file. 
 git checkout -- <file>
+
+# How to delete a local branch, using D to force delete
+git branch -d <branch_name>
+# How to delete a remote branch 
+git push <remote_name> --delete <branch_name>
