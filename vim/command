@@ -5,3 +5,5 @@ using >> or <<
 # how to show line number in vim 
 :set number
 :set nonumber  # not showing line number
+# how to go to the next or previous blank spaces
+Press W or B
