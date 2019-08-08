@@ -24,3 +24,5 @@ git checkout -- <file>
 git branch -d <branch_name>
 # How to delete a remote branch 
 git push <remote_name> --delete <branch_name>
+# How to checkout a branch from a fork repo, and using branch name directly would not work
+git checkout origin/<branch_name>
