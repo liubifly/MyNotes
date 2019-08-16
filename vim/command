@@ -7,3 +7,6 @@ using >> or <<
 :set nonumber  # not showing line number
 # how to go to the next or previous blank spaces
 Press W or B
+# how to get to the previous cursor or the next cursor
+ctrl+o # previous
+ctrl+i # next#
