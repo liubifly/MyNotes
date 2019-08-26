@@ -26,3 +26,6 @@ git branch -d <branch_name>
 git push <remote_name> --delete <branch_name>
 # How to checkout a branch from a fork repo, and using branch name directly would not work
 git checkout origin/<branch_name>
+
+# How to show the name of remote repo
+git remote show origin
