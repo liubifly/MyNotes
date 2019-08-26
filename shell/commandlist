@@ -10,3 +10,5 @@ sudo mount /dev/xvdf /newvolume/
 chown -R `whoami` /newvolume  # change the access, R meaning recursively
 # how to get the nth line of a file, the following command will print the second line
 sed -n '2p' < file.txt
+# how to find a file recursively 
+find . -name "foo*"
