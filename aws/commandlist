@@ -1,2 +1,2 @@
 # how to copy the file from aws s3
-aws s3 cp 
+aws s3 cp s3://mybucket/folder_name/file_name local_file_name
