@@ -12,3 +12,5 @@ chown -R `whoami` /newvolume  # change the access, R meaning recursively
 sed -n '2p' < file.txt
 # how to find a file recursively 
 find . -name "foo*"
+# how to unset the environment variables
+unset env_name
